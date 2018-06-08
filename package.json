@@ -1,0 +1,26 @@
+{
+  "name": "rakeshmaster",
+  "version": "1.0.0",
+  "description": "To run protractor test in Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakesh-Dasi/ProtractorJenkins.git"
+  },
+  "author": "Rakesh Dasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakesh-Dasi/ProtractorJenkins/issues"
+  },
+  "homepage": "https://github.com/Rakesh-Dasi/ProtractorJenkins#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "protractor": "^5.3.2",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
